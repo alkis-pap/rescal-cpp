@@ -6,9 +6,11 @@ Rescal Tensor Factorization using Eigen.
 
 Eigen: http://eigen.tuxfamily.org/
 
+Spectra: https://spectralib.org/
+
 Pybind11: https://github.com/pybind/pybind11
 
-You can skip Pybind11 if you don't need python bindings but you have to #define NO_PYTHON
+You can skip Pybind11 if you don't need the python bindings but you have to #define NO_PYTHON
 
 
 # Build
