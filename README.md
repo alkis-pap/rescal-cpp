@@ -13,7 +13,7 @@ You can skip Pybind11 if you don't need python bindings but you have to #define 
 
 # Build
 
-As python module:
+As a python module:
 ```
 g++ -O3 -shared -fpic -fopenmp -Wall -std=c++11 -march=native `python -m pybind11 --includes` rescal.cpp -o rescal.so
 ```
